@@ -10,6 +10,8 @@ Save as .py and run in cmd (you need python 3)
 Wait for up to 3 minutes, youll get a list of ids, copy and paste all of those ids into a new notepad tab. Delete the "[]" at the start and end of the list.
 Open converttolink in notepad, and paste all of those ids in. Do not delete the "[]" already in the script.
 It should look like:
+
+
  Example usage
 user_ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  # Add any user IDs you want
 urls = convert_to_roblox_urls(user_ids)
