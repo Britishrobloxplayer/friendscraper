@@ -15,18 +15,31 @@ It should look like:
  Example usage
 user_ids = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]  # Add any user IDs you want
 urls = convert_to_roblox_urls(user_ids)
+
+
 Once you put in all ids, save as .py and run the script, so python converttolink.py
 it will give you a long list of links, like this:
+
+
 https://roblox.com/users/10041425896
+
 https://roblox.com/users/4334616552
+
 https://roblox.com/users/2269478891
+
 https://roblox.com/users/7963312115
+
 https://roblox.com/users/3612344308
+
 https://roblox.com/users/1803452405
+
 https://roblox.com/users/3873636347
+
 Paste all ids that are outputted in terminal into a new .txt file. Call it anything, like ids.txt or userids.txt 
 Open checkiferp.py in notepad.
 The first part is done already, it will be ids that will detect if the user is innapropriate, and keywords, they can be changed.
+
+
 Where it says: inappropriate_users_file = "inappropriate_users.txt"
 
 API_KEY = "studio api key needed to check group members and api, generate at https://create.roblox.com/dashboard/credentials?activeTab=ApiKeysTab"
